@@ -20,6 +20,8 @@ public class Loginpom {
 
 	@FindBy(xpath = "//input[@type='Submit']")
 	private WebElement login;
+	
+	private WebElement lb;
 
 	public WebElement getUser() {
 		return user;
