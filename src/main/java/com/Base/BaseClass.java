@@ -22,7 +22,7 @@ public class BaseClass {
 
 			WebDriverManager.chromedriver().setup();
 
-			driver = new ChromeDriver();
+//			driver = new ChromeDriver();
 
 		}
 
